@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/HelloOpenGL.dir/main.cpp.o  -o HelloOpenGL  /usr/local/lib/libGLEW.dylib /Users/Raye/Project/ME557/HCI-557-CG/SDK/lib/libglfw.a -framework AGL -framework OpenGL 
