@@ -606,7 +606,7 @@ void Sphere1::initShader(void){
      _material._diffuse_material = glm::vec3(1.0, 0.0/*0.5*/, 0.0);
      _material._ambient_material = glm::vec3(1.0, 0.0/*0.5*/, 0.0);
     _material._specular_material = glm::vec3(1.0, 1.0, 1.0);
-    _material._shininess = 30.0;
+    _material._shininess = 40.0;
     
     
     _material._ambientColorPos = glGetUniformLocation(_program, "ambient_color");
@@ -625,9 +625,9 @@ void Sphere1::initShader(void){
     // Light
     
     // define the position of the light and send the light position to your shader program
-    _light_source0._lightPos = glm::vec4(15.0,40.0,10.0,1.0);
+    _light_source0._lightPos = glm::vec4(40.0,60.0,20.0,1.0);
     _light_source0._ambient_intensity = 0.3;
-    _light_source0._specular_intensity = 1.5;
+    _light_source0._specular_intensity = 1.2;
     _light_source0._diffuse_intensity = 1.0;
  
     
@@ -1070,11 +1070,11 @@ void Sphere3::initShader(void){
     _light_source1._lightPos = glm::vec4(32.0,20.0,0.0,1.0);
     _light_source1._ambient_intensity = 0.5;
     _light_source1._specular_intensity = 1.0;
-    _light_source1._diffuse_intensity = 1.0;
+    _light_source1._diffuse_intensity = 2.0;
     _light_source1._attenuation_coeff = 0.0;//0.02;
  
-    _light_source1._inner_cone_angle = 14.0;//15.0; // in degree
-    _light_source1._outer_cone_angle = 14.0;
+    _light_source1._inner_cone_angle = 15.0;//15.0; // in degree
+    _light_source1._outer_cone_angle = 15.0;
 
     _light_source1._cone_direction = glm::vec3(0.0, -1.0, -0.1); // this must be aligned with the object and light position.
 

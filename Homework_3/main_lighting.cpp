@@ -79,7 +79,7 @@ int main(int argc, const char * argv[])
     GLSpotLightSource  light_source1;
     light_source1._lightPos = glm::vec4(48.0,20.0,0.0,1.0);
     light_source1._ambient_intensity = 0.3;
-    light_source1._specular_intensity = 4.0;
+    light_source1._specular_intensity = 1.0;
     light_source1._diffuse_intensity = 3.0;
     light_source1._attenuation_coeff = 0.02;
     light_source1._inner_cone_angle = 10.0; // in degree
@@ -90,7 +90,7 @@ int main(int argc, const char * argv[])
     GLDirectLightSource  light_source2;
     light_source2._lightPos = glm::vec4(-10.0,10.0,20.0, 0.0);
     light_source2._ambient_intensity = 0.1;
-    light_source2._specular_intensity = 0.2;
+    light_source2._specular_intensity = 0.1;
     light_source2._diffuse_intensity = 0.0;
     light_source2._attenuation_coeff = 0.0;
    // light_source2._cone_angle = 12.0; // in degree
