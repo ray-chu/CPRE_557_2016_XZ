@@ -1,0 +1,20 @@
+﻿  Building Custom Rule E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeLists.txt
+  CMake does not need to re-run because E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\generate.stamp is up-to-date.
+  hw4_main.cpp
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\hw4_main.cpp(107): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  controls.cpp
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\controls.cpp(55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\controls.cpp(58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\controls.cpp(66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  HCI557Common.cpp
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\HCI557Common.cpp(128): warning C4305: 'return': truncation from 'int' to 'bool'
+  CoordSystem.cpp
+  ImgLoader.cpp
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\ImgLoader.cpp(39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\ImgLoader.cpp(74): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\ImgLoader.cpp(104): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  ShaderFileUtils.cpp
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\ShaderFileUtils.cpp(49): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  HW4_Program.vcxproj -> E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\Debug\HW4_Program.exe

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\hw4_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\HCI557Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CoordSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\ImgLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\ShaderFileUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\HCI557Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CoordSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\ImgLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\ShaderFileUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B01DDAF9-39DA-3911-BB3B-DF6246D122FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B272930E-1890-32E7-85D9-0664D12D0A33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,268 +1,286 @@
-The system is: Darwin - 13.4.0 - x86_64
+The system is: Windows - 10.0.14393 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Compiler:  
 Build flags: 
 Id flags: 
 
 The output was:
 0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/2/2016 11:51:38 PM.
+Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\3.6.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
-The C compiler identification is AppleClang, found in "/Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/3.2.3/CompilerIdC/a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/3.6.2/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Compiler:  
 Build flags: 
 Id flags: 
 
 The output was:
 0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/2/2016 11:51:39 PM.
+Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\3.6.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
-The CXX compiler identification is AppleClang, found in "/Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/3.2.3/CompilerIdCXX/a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/3.6.2/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
+Change Dir: E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1468791800/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec1468791800.dir/build.make CMakeFiles/cmTryCompileExec1468791800.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1468791800.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1468791800.dir/testCCompiler.c.o   -c /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec1468791800
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1468791800.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1468791800.dir/testCCompiler.c.o  -o cmTryCompileExec1468791800  
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a6b3b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/2/2016 11:51:41 PM.
+Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_a6b3b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a6b3b.dir\Debug\".
+  Creating directory "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a6b3b.dir\Debug\cmTC_a6b3b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a6b3b.dir\Debug\cmTC_a6b3b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6b3b.dir\Debug\\" /Fd"cmTC_a6b3b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6b3b.dir\Debug\\" /Fd"cmTC_a6b3b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_a6b3b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_a6b3b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_a6b3b.lib" /MACHINE:X64  /machine:x64 cmTC_a6b3b.dir\Debug\testCCompiler.obj
+  cmTC_a6b3b.vcxproj -> E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_a6b3b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a6b3b.dir\Debug\cmTC_a6b3b.tlog\unsuccessfulbuild".
+  Touching "cmTC_a6b3b.dir\Debug\cmTC_a6b3b.tlog\cmTC_a6b3b.lastbuildstate".
+Done Building Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_a6b3b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
+Change Dir: E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2775591086/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec2775591086.dir/build.make CMakeFiles/cmTryCompileExec2775591086.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2775591086.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2775591086.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.2.3/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec2775591086
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2775591086.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTryCompileExec2775591086.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2775591086   
-Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)
-Target: x86_64-apple-darwin13.4.0
-Thread model: posix
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec2775591086 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2775591086.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-241.9
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
-Library search paths:
-	/usr/lib
-	/usr/local/lib
-Framework search paths:
-	/Library/Frameworks/
-	/System/Library/Frameworks/
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2775591086/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec2775591086.dir/build.make CMakeFiles/cmTryCompileExec2775591086.dir/build]
-  ignore line: [/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec2775591086.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2775591086.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.2.3/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec2775591086]
-  ignore line: [/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2775591086.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTryCompileExec2775591086.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2775591086   ]
-  ignore line: [Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)]
-  ignore line: [Target: x86_64-apple-darwin13.4.0]
-  ignore line: [Thread model: posix]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec2775591086 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2775591086.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
-    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.9.0] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTryCompileExec2775591086] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec2775591086.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/usr/lib;/usr/local/lib]
-  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
-  remove lib [System]
-  collapse lib [/Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
-  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
-  implicit libs: [/Library/Developer/CommandLineTools/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/usr/lib;/usr/local/lib]
-  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_00182.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/2/2016 11:51:42 PM.
+Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_00182.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_00182.dir\Debug\".
+  Creating directory "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_00182.dir\Debug\cmTC_00182.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_00182.dir\Debug\cmTC_00182.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00182.dir\Debug\\" /Fd"cmTC_00182.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00182.dir\Debug\\" /Fd"cmTC_00182.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_00182.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_00182.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_00182.lib" /MACHINE:X64  /machine:x64 cmTC_00182.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_00182.vcxproj -> E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_00182.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_00182.dir\Debug\cmTC_00182.tlog\unsuccessfulbuild".
+  Touching "cmTC_00182.dir\Debug\cmTC_00182.tlog\cmTC_00182.lastbuildstate".
+Done Building Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_00182.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
 
 
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTryCompileExec812920522/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec812920522.dir/build.make CMakeFiles/cmTryCompileExec812920522.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec812920522.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec812920522.dir/feature_tests.c.o   -c /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec812920522
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec812920522.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec812920522.dir/feature_tests.c.o  -o cmTryCompileExec812920522  
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1355845370/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec1355845370.dir/build.make CMakeFiles/cmTryCompileExec1355845370.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1355845370.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1355845370.dir/feature_tests.c.o   -c /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec1355845370
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1355845370.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1355845370.dir/feature_tests.c.o  -o cmTryCompileExec1355845370  
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTryCompileExec352551874/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec352551874.dir/build.make CMakeFiles/cmTryCompileExec352551874.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec352551874.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec352551874.dir/feature_tests.c.o   -c /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec352551874
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec352551874.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec352551874.dir/feature_tests.c.o  -o cmTryCompileExec352551874  
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
+Change Dir: E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4222041364/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec4222041364.dir/build.make CMakeFiles/cmTryCompileExec4222041364.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4222041364.dir/testCXXCompiler.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4222041364.dir/testCXXCompiler.cxx.o -c /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec4222041364
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4222041364.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4222041364.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4222041364  
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3190e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/2/2016 11:51:44 PM.
+Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_3190e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3190e.dir\Debug\".
+  Creating directory "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3190e.dir\Debug\cmTC_3190e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3190e.dir\Debug\cmTC_3190e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3190e.dir\Debug\\" /Fd"cmTC_3190e.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3190e.dir\Debug\\" /Fd"cmTC_3190e.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_3190e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_3190e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_3190e.lib" /MACHINE:X64  /machine:x64 cmTC_3190e.dir\Debug\testCXXCompiler.obj
+  cmTC_3190e.vcxproj -> E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_3190e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3190e.dir\Debug\cmTC_3190e.tlog\unsuccessfulbuild".
+  Touching "cmTC_3190e.dir\Debug\cmTC_3190e.tlog\cmTC_3190e.lastbuildstate".
+Done Building Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_3190e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
+Change Dir: E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1562730767/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec1562730767.dir/build.make CMakeFiles/cmTryCompileExec1562730767.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1562730767.dir/CMakeCXXCompilerABI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1562730767.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.2.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec1562730767
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1562730767.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTryCompileExec1562730767.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1562730767   
-Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)
-Target: x86_64-apple-darwin13.4.0
-Thread model: posix
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec1562730767 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1562730767.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-241.9
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
-Library search paths:
-	/usr/lib
-	/usr/local/lib
-Framework search paths:
-	/Library/Frameworks/
-	/System/Library/Frameworks/
-
-
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1562730767/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec1562730767.dir/build.make CMakeFiles/cmTryCompileExec1562730767.dir/build]
-  ignore line: [/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1562730767.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1562730767.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.2.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec1562730767]
-  ignore line: [/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1562730767.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTryCompileExec1562730767.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1562730767   ]
-  ignore line: [Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)]
-  ignore line: [Target: x86_64-apple-darwin13.4.0]
-  ignore line: [Thread model: posix]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec1562730767 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1562730767.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
-    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.9.0] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTryCompileExec1562730767] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec1562730767.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lc++] ==> lib [c++]
-    arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/usr/lib;/usr/local/lib]
-  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
-  remove lib [System]
-  collapse lib [/Library/Developer/CommandLineTools/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
-  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
-  implicit libs: [c++;/Library/Developer/CommandLineTools/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/usr/lib;/usr/local/lib]
-  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_67108.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/2/2016 11:51:45 PM.
+Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_67108.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_67108.dir\Debug\".
+  Creating directory "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_67108.dir\Debug\cmTC_67108.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_67108.dir\Debug\cmTC_67108.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_67108.dir\Debug\\" /Fd"cmTC_67108.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_67108.dir\Debug\\" /Fd"cmTC_67108.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_67108.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_67108.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_67108.lib" /MACHINE:X64  /machine:x64 cmTC_67108.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_67108.vcxproj -> E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_67108.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_67108.dir\Debug\cmTC_67108.tlog\unsuccessfulbuild".
+  Touching "cmTC_67108.dir\Debug\cmTC_67108.tlog\cmTC_67108.lastbuildstate".
+Done Building Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_67108.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
 
 
 
 
-Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3570508618/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec3570508618.dir/build.make CMakeFiles/cmTryCompileExec3570508618.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3570508618.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec3570508618.dir/feature_tests.cxx.o -c /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec3570508618
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3570508618.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3570508618.dir/feature_tests.cxx.o  -o cmTryCompileExec3570508618  
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7c747.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/2/2016 11:51:47 PM.
+Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_7c747.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7c747.dir\Debug\".
+  Creating directory "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7c747.dir\Debug\cmTC_7c747.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7c747.dir\Debug\cmTC_7c747.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7c747.dir\Debug\\" /Fd"cmTC_7c747.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7c747.dir\Debug\\" /Fd"cmTC_7c747.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_7c747.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_7c747.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/Debug/cmTC_7c747.lib" /MACHINE:X64  /machine:x64 cmTC_7c747.dir\Debug\feature_tests.obj
+  cmTC_7c747.vcxproj -> E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\Debug\cmTC_7c747.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_7c747.dir\Debug\cmTC_7c747.tlog\unsuccessfulbuild".
+  Touching "cmTC_7c747.dir\Debug\cmTC_7c747.tlog\cmTC_7c747.lastbuildstate".
+Done Building Project "E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\CMakeTmp\cmTC_7c747.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
 
 
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
     Feature record: CXX_FEATURE:1cxx_alignas
     Feature record: CXX_FEATURE:1cxx_alignof
@@ -274,7 +292,6 @@ Linking CXX executable cmTryCompileExec3570508618
     Feature record: CXX_FEATURE:1cxx_contextual_conversions
     Feature record: CXX_FEATURE:1cxx_decltype
     Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
     Feature record: CXX_FEATURE:1cxx_default_function_template_args
     Feature record: CXX_FEATURE:1cxx_defaulted_functions
     Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
@@ -302,7 +319,6 @@ Linking CXX executable cmTryCompileExec3570508618
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -310,7 +326,7 @@ Linking CXX executable cmTryCompileExec3570508618
     Feature record: CXX_FEATURE:1cxx_static_assert
     Feature record: CXX_FEATURE:1cxx_strong_enums
     Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_thread_local
     Feature record: CXX_FEATURE:1cxx_trailing_return_types
     Feature record: CXX_FEATURE:1cxx_unicode_literals
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
@@ -319,147 +335,3 @@ Linking CXX executable cmTryCompileExec3570508618
     Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3374178384/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec3374178384.dir/build.make CMakeFiles/cmTryCompileExec3374178384.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3374178384.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec3374178384.dir/feature_tests.cxx.o -c /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec3374178384
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3374178384.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3374178384.dir/feature_tests.cxx.o  -o cmTryCompileExec3374178384  
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3332470663/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTryCompileExec3332470663.dir/build.make CMakeFiles/cmTryCompileExec3332470663.dir/build
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_progress_report /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3332470663.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec3332470663.dir/feature_tests.cxx.o -c /Users/Raye/Project/ME557/CPRE_557_2016_XZ/Homework_4/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec3332470663
-/usr/local/Cellar/cmake/3.2.3/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3332470663.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3332470663.dir/feature_tests.cxx.o  -o cmTryCompileExec3332470663  
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:0cxx_alias_templates
-    Feature record: CXX_FEATURE:0cxx_alignas
-    Feature record: CXX_FEATURE:0cxx_alignof
-    Feature record: CXX_FEATURE:0cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:0cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:0cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:0cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:0cxx_default_function_template_args
-    Feature record: CXX_FEATURE:0cxx_defaulted_functions
-    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:0cxx_delegating_constructors
-    Feature record: CXX_FEATURE:0cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:0cxx_explicit_conversions
-    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:0cxx_extern_templates
-    Feature record: CXX_FEATURE:0cxx_final
-    Feature record: CXX_FEATURE:0cxx_func_identifier
-    Feature record: CXX_FEATURE:0cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:0cxx_inline_namespaces
-    Feature record: CXX_FEATURE:0cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:0cxx_local_type_template_args
-    Feature record: CXX_FEATURE:0cxx_long_long_type
-    Feature record: CXX_FEATURE:0cxx_noexcept
-    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:0cxx_nullptr
-    Feature record: CXX_FEATURE:0cxx_override
-    Feature record: CXX_FEATURE:0cxx_range_for
-    Feature record: CXX_FEATURE:0cxx_raw_string_literals
-    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:0cxx_rvalue_references
-    Feature record: CXX_FEATURE:0cxx_sizeof_member
-    Feature record: CXX_FEATURE:0cxx_static_assert
-    Feature record: CXX_FEATURE:0cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:0cxx_trailing_return_types
-    Feature record: CXX_FEATURE:0cxx_unicode_literals
-    Feature record: CXX_FEATURE:0cxx_uniform_initialization
-    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:0cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:0cxx_variadic_macros
-    Feature record: CXX_FEATURE:0cxx_variadic_templates

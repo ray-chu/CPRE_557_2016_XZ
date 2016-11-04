@@ -67,7 +67,7 @@ Loads a texture from a file and creates the necessary texture objects
 @param path_and_file to the texture object
 @return unsigned char - a pointer to the texture data
 */
-unsigned char* ImgLoader::Load(string path_and_file)
+unsigned char* ImgLoader::Load(string path_and_file, unsigned&width,unsigned&height, int&channels)
 {
 	// Check whether we load a bitmap file
 
@@ -92,11 +92,11 @@ unsigned char* ImgLoader::Load(string path_and_file)
 	//**********************************************************************************************
 	// Loads the file content
 
-	int channels = 3;
+	channels = 3;
 	
 	unsigned char header[54]; // Each BMP file begins by a 54-bytes header
 	unsigned int dataPos;     // Position in the file where the actual data begins
-	unsigned int width, height;
+	//unsigned int width, height;
 	unsigned int imageSize;
 
 	// This opens a file

@@ -44,6 +44,6 @@ public:
 	@param path_and_file to the texture object
 	@return unsigned char - a pointer to the texture data
 	*/
-	static unsigned char* Load(string path_and_file);
+	static unsigned char* Load(string path_and_file,unsigned&width, unsigned&height, int&channels);
 };
 

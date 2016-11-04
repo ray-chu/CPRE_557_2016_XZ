@@ -66,8 +66,6 @@ GLFWwindow*         window;
 
 // Define some of the global variables we're using for this sample
 GLuint program;
-GLuint texture;
-
 
 
 
@@ -239,11 +237,11 @@ void createSquare(void)
 
 
 								  //Color
-	glBindBuffer(GL_ARRAY_BUFFER, vboID[1]); // Bind our second Vertex Buffer Object
-	glBufferData(GL_ARRAY_BUFFER, 18 * sizeof(GLfloat), colors, GL_STATIC_DRAW); // Set the size and data of our VBO and set it to STATIC_DRAW
+	//glBindBuffer(GL_ARRAY_BUFFER, vboID[1]); // Bind our second Vertex Buffer Object
+	//glBufferData(GL_ARRAY_BUFFER, 18 * sizeof(GLfloat), colors, GL_STATIC_DRAW); // Set the size and data of our VBO and set it to STATIC_DRAW
 
-	glVertexAttribPointer((GLuint)2, 3, GL_FLOAT, GL_FALSE, 0, 0); // Set up our vertex attributes pointer
-	glEnableVertexAttribArray(2); // Enable the second vertex attribute array
+	//glVertexAttribPointer((GLuint)2, 3, GL_FLOAT, GL_FALSE, 0, 0); // Set up our vertex attributes pointer
+	//glEnableVertexAttribArray(2); // Enable the second vertex attribute array
 
 	glBindVertexArray(0); // Disable our Vertex Buffer Object
 
@@ -260,81 +258,28 @@ void createSquare(void)
 	- Load the texture to your graphics card
 	- Create a texture uniform variable
 	-----------------------------------------------------------------------------------*/
-	    // Check whether we load a bitmap file
-	string path_and_file("../data/textures/texture_earth_128x128_a.bmp");
-    int idx = path_and_file.find_last_of(".");
-    string suffix = path_and_file.substr(idx+1, 3);
-    
-    if (suffix.compare("bmp") != 0) {
-        cerr << "[ERROR] Filetype " << suffix << " is currently not supported. This example only support bitmap files. " << endl;
-        return;
-    }
-
-
-	string checked_path_and_file;
-	bool ret = SearchTexture(path_and_file, checked_path_and_file);
-    
-	if(!ret)
-	{
-		cerr << "[ERROR] Cannot find the file " << path_and_file << "." << endl;
-        return ;
-	}
-    
-    //**********************************************************************************************
-    // Loads the file content
-    
-    int channels = 3;
-    unsigned char * data;
-    unsigned char header[54]; // Each BMP file begins by a 54-bytes header
-    unsigned int dataPos;     // Position in the file where the actual data begins
-    unsigned int width, height;
-    unsigned int imageSize;
-    
-    // This opens a file
-    FILE * file;
-    file = fopen( checked_path_and_file.c_str(), "rb" );
-    
-    if ( file == NULL ) return ;
-    
-    // This reads the header of the file and checks the length.
-    if ( fread(header, 1, 54, file)!=54 )
-    {
-        // If not 54 bytes read, this is not a bmp.
-        // Only a bmp has a header of length 54
-        printf("Not a correct BMP file\n");
-        return;
-    }
-    
-    // Read the start position of the data, the size, the width, and height.
-    dataPos    = *(int*)&(header[0x0A]);
-    imageSize  = *(int*)&(header[0x22]);
-    width      = *(int*)&(header[0x12]);
-    height     = *(int*)&(header[0x16]);
-    channels = imageSize / (width * height);
-    
-    // Create memory for this texture
-    data = (unsigned char *)malloc( width * height * channels );
-    
-    // Read the data from a file.
-    fread( data, width * height * channels, 1, file );
-    
-    // Release the file.
-    fclose( file );
-    
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
+	int channels;
+	unsigned int width, height;
+	//unsigned char* gradient = ImgLoader::Load("./color_gradient.bmp", width, height,channels);
+	unsigned char* gradient = ImgLoader::Load("./color_gradient.bmp", width, height, channels);
+	
     
     //**********************************************************************************************
     // Texture generation
     
     // Generate a texture, this function allocates the memory and
     // associates the texture with a variable.
-    glGenTextures(1, &texture );
-    int tex_idx = glGetUniformLocation(program, "tex" );
+	GLuint texture0;
+    glGenTextures(1, &texture0 );
+    int tex_idx0 = glGetUniformLocation(program, "tex_gradient" );
     glActiveTexture(GL_TEXTURE0);
 
     
     // Set a texture as active texture.
-    glBindTexture( GL_TEXTURE_2D, texture );
-    glUniform1i(tex_idx, 0);
+    glBindTexture( GL_TEXTURE_2D, texture0 );
+    glUniform1i(tex_idx0, 0);
     
     // Change the parameters of your texture units.
     //glTexEnvf( GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE,GL_BLEND );
@@ -346,21 +291,86 @@ void createSquare(void)
     
     // Create a texture and load it to your graphics hardware. This texture is automatically associated
     // with texture 0 and the textuer variable "texture" / the active texture.
+	//cout << channels << "\n";
     if(channels == 3)
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_BGR, GL_UNSIGNED_BYTE, data);
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_BGR, GL_UNSIGNED_BYTE, gradient);
     else if(channels == 4)
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_BGRA, GL_UNSIGNED_BYTE, data);
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_BGRA, GL_UNSIGNED_BYTE, gradient);
     
     //**********************************************************************************************
     // Create a midmap texture pyramid and load it to the graphics hardware.
     // Note, the MIN and MAG filter must be set to one of the available midmap filters.
-    //gluBuild2DMipmaps( GL_TEXTURE_2D, 3, width, height,GL_RGB, GL_UNSIGNED_BYTE, data );
+    gluBuild2DMipmaps( GL_TEXTURE_2D, 3, width, height,GL_RGB, GL_UNSIGNED_BYTE, gradient);
     
     // Delete your loaded data
-    free( data );
+    //free( gradient);
     
     // Return the texture.
     //return _texture;
+	width = 0; height = 0; channels = 0;
+	//unsigned char* landscape = ImgLoader::Load("../data/textures/texture_isu.bmp", width, height, channels);
+	unsigned char* landscape = ImgLoader::Load("./landscape.bmp", width, height, channels);
+	GLuint texture1;
+	glGenTextures(1, &texture1);
+	int tex_idx1 = glGetUniformLocation(program, "tex_landscape");
+	glActiveTexture(GL_TEXTURE1);
+
+
+	// Set a texture as active texture.
+	glBindTexture(GL_TEXTURE_2D, texture1);
+	glUniform1i(tex_idx1, 1);
+
+	// Change the parameters of your texture units.
+	//glTexEnvf( GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE,GL_BLEND );
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+
+
+	// Create a texture and load it to your graphics hardware. This texture is automatically associated
+	// with texture 0 and the textuer variable "texture" / the active texture.
+	//cout << channels << "\n";
+	if (channels == 3)
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_BGR, GL_UNSIGNED_BYTE, landscape);
+	else if (channels == 4)
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_BGRA, GL_UNSIGNED_BYTE, landscape);
+
+	//**********************************************************************************************
+	// Create a midmap texture pyramid and load it to the graphics hardware.
+	// Note, the MIN and MAG filter must be set to one of the available midmap filters.
+	//gluBuild2DMipmaps(GL_TEXTURE_2D, 3, width, height, GL_RGB, GL_UNSIGNED_BYTE, landscape);
+
+	//unsigned char* landscape = ImgLoader::Load("../data/textures/texture_isu.bmp", width, height, channels);
+	unsigned char* animal = ImgLoader::Load("./animal.bmp", width, height, channels);
+	GLuint texture2;
+	glGenTextures(1, &texture2);
+	int tex_idx2 = glGetUniformLocation(program, "tex_animal");
+	glActiveTexture(GL_TEXTURE2);
+
+
+	// Set a texture as active texture.
+	glBindTexture(GL_TEXTURE_2D, texture2);
+	glUniform1i(tex_idx2, 2);
+
+	// Change the parameters of your texture units.
+	//glTexEnvf( GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE,GL_BLEND );
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+
+
+	// Create a texture and load it to your graphics hardware. This texture is automatically associated
+	// with texture 0 and the textuer variable "texture" / the active texture.
+	//cout << channels << "\n";
+	if (channels == 3)
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_BGR, GL_UNSIGNED_BYTE, animal);
+	else if (channels == 4)
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_BGRA, GL_UNSIGNED_BYTE, animal);
+
+	// Delete your loaded data
+	free(animal);
 
 }
 
