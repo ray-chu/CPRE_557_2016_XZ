@@ -1,7 +1,10 @@
 ﻿  Building Custom Rule E:/Cygwin_64/home/Ray/Project/CPRE_557_2016_XZ/Homework_4/CMakeLists.txt
   CMake does not need to re-run because E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\CMakeFiles\generate.stamp is up-to-date.
   hw4_main.cpp
-E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\hw4_main.cpp(107): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\hw4_main.cpp(109): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\hw4_main.cpp(265): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\hw4_main.cpp(295): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
   controls.cpp
 E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\controls.cpp(55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\Cygwin_64\home\Ray\Project\CPRE_557_2016_XZ\Homework_4\controls.cpp(58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
