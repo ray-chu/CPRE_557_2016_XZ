@@ -1,0 +1,51 @@
+# Main cmake file 
+# Hello OpenGL
+
+cmake_minimum_required(VERSION 2.6)
+
+# Main project name is ARMaker
+project(Model)
+
+set(CFILE_PATH  "${CMAKE_SOURCE_DIR}/../SDK/cmake/")
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/" ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/../SDK/cmake/")
+
+message(STATUS "Source directory ${CMAKE_SOURCE_DIR}")
+message(STATUS "SDK directory ${CMAKE_SOURCE_DIR}/../SDK/")
+
+# Find packages
+FIND_PACKAGE(glew REQUIRED)
+FIND_PACKAGE(glm REQUIRED)
+FIND_PACKAGE(glfw3 REQUIRED)
+FIND_PACKAGE(OpenGL REQUIRED)
+
+
+# Include dirs
+include_directories(${GLEW_INCLUDE_DIR})
+include_directories(${GLFW3_INCLUDE_DIR})
+include_directories(${GLM_INCLUDE_DIR})
+include_directories(${OPENGL_INCLUDE_DIR})
+include_directories(${CMAKE_SOURCE_DIR}/soil/include)
+include_directories(${CMAKE_SOURCE_DIR}/assimp/include)
+
+# Add all files to the configuration
+file(GLOB Model_SRC
+    model_test.cpp
+    Mesh.h
+    Model.h
+    Camera.h
+)
+
+#SET(CMAKE_CXX_STANDARD 11)
+
+# Create an executable
+add_executable(Model ${Model_SRC})
+
+#IF(UNIX)
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=gnu++0x -lGLEW  -lGL -lX11 -lpthread -lXrandr -lXi")
+set(GLEW_LIBRARY "/usr/lib64/libGLEW.so.1.13")
+set(SOIL_LIBRARY "${CMAKE_SOURCE_DIR}/soil/lib/libSOIL.a")
+set(ASSIMP_LIBRARY "${CMAKE_SOURCE_DIR}/assimp/lib/libassimp.so")
+#ENDIF(UNIX)
+
+# Add libraries
+target_link_libraries(Model ${GLEW_LIBRARY} ${GLFW3_LIBRARY} ${OPENGL_LIBRARIES} ${SOIL_LIBRARY} ${ASSIMP_LIBRARY})

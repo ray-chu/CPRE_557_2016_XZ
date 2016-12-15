@@ -1,0 +1,337 @@
+The system is: Linux - 2.6.32-573.18.1.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1832238577/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1832238577.dir/build.make CMakeFiles/cmTryCompileExec1832238577.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1832238577.dir/testCCompiler.c.o
+/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec1832238577.dir/testCCompiler.c.o   -c /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1832238577
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1832238577.dir/link.txt --verbose=1
+/usr/local/bin/cc       CMakeFiles/cmTryCompileExec1832238577.dir/testCCompiler.c.o  -o cmTryCompileExec1832238577 -rdynamic 
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4089500005/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4089500005.dir/build.make CMakeFiles/cmTryCompileExec4089500005.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4089500005.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec4089500005.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4089500005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4089500005.dir/link.txt --verbose=1
+/usr/local/bin/cc     -v CMakeFiles/cmTryCompileExec4089500005.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4089500005 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/cc
+COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) 
+COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4089500005' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4089500005 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec4089500005.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec4089500005/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4089500005.dir/build.make CMakeFiles/cmTryCompileExec4089500005.dir/build]
+  ignore line: [gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4089500005.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec4089500005.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4089500005]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4089500005.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/cc     -v CMakeFiles/cmTryCompileExec4089500005.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4089500005 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4089500005' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4089500005 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec4089500005.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4089500005] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec4089500005.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> [/opt/rh/devtoolset-2/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> [/opt/rh/devtoolset-2/root/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1;/opt/rh/devtoolset-2/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-2/root/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1303955515/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1303955515.dir/build.make CMakeFiles/cmTryCompileExec1303955515.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1303955515.dir/testCXXCompiler.cxx.o
+/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec1303955515.dir/testCXXCompiler.cxx.o -c /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1303955515
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1303955515.dir/link.txt --verbose=1
+/usr/local/bin/c++        CMakeFiles/cmTryCompileExec1303955515.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1303955515 -rdynamic 
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2845745659/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2845745659.dir/build.make CMakeFiles/cmTryCompileExec2845745659.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2845745659.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec2845745659.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2845745659
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2845745659.dir/link.txt --verbose=1
+/usr/local/bin/c++      -v CMakeFiles/cmTryCompileExec2845745659.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2845745659 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) 
+COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2845745659' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2845745659 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec2845745659.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2845745659/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2845745659.dir/build.make CMakeFiles/cmTryCompileExec2845745659.dir/build]
+  ignore line: [gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2845745659.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec2845745659.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2845745659]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2845745659.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++      -v CMakeFiles/cmTryCompileExec2845745659.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2845745659 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2845745659' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2845745659 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec2845745659.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2845745659] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec2845745659.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> [/opt/rh/devtoolset-2/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> [/opt/rh/devtoolset-2/root/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1;/opt/rh/devtoolset-2/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-2/root/usr/lib]
+  implicit fwks: []
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2740875190/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2740875190.dir/build.make CMakeFiles/cmTryCompileExec2740875190.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2740875190.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec2740875190.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2740875190
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2740875190.dir/link.txt --verbose=1
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec2740875190.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2740875190 -rdynamic -lX11 -lXext 
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec527891601/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec527891601.dir/build.make CMakeFiles/cmTryCompileExec527891601.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec527891601.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec527891601.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec527891601
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec527891601.dir/link.txt --verbose=1
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec527891601.dir/CheckFunctionExists.c.o  -o cmTryCompileExec527891601 -rdynamic 
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec248746542/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec248746542.dir/build.make CMakeFiles/cmTryCompileExec248746542.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec248746542.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec248746542.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec248746542
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec248746542.dir/link.txt --verbose=1
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec248746542.dir/CheckFunctionExists.c.o  -o cmTryCompileExec248746542 -rdynamic 
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2493939823/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2493939823.dir/build.make CMakeFiles/cmTryCompileExec2493939823.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2493939823.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec2493939823.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2493939823
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2493939823.dir/link.txt --verbose=1
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec2493939823.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2493939823 -rdynamic 
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1806803100/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1806803100.dir/build.make CMakeFiles/cmTryCompileExec1806803100.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1806803100.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1806803100.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1806803100
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1806803100.dir/link.txt --verbose=1
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1806803100.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1806803100 -rdynamic 
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec382590255/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec382590255.dir/build.make CMakeFiles/cmTryCompileExec382590255.dir/build
+gmake[1]: Entering directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec382590255.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec382590255.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec382590255
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec382590255.dir/link.txt --verbose=1
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec382590255.dir/CheckFunctionExists.c.o  -o cmTryCompileExec382590255 -rdynamic -lICE 
+gmake[1]: Leaving directory `/local/xian_titan/Documents/CPRE_557_2016_XZ/Project2/CMakeFiles/CMakeTmp'
+
+
